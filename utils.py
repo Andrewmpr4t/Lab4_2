@@ -3,3 +3,8 @@ def fact(a):
         return 1
     else:
         return a * fact(a-1)
+    def find_gcd(a, b):
+        while b:
+            a, b = b, a%b
+            return a 
+    
