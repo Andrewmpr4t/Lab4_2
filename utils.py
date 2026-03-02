@@ -5,3 +5,8 @@ def fibonacci(n):
     for _ in range(2, n + 1):
         a, b = b, a + b
     return b
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    else:
+        return n * fact(n-1)
